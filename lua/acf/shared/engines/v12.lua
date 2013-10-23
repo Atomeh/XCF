@@ -1,4 +1,3 @@
-
 -- V12 engines
 
 -- Petrol
@@ -105,4 +104,21 @@ ACF_DefineEngine( "21.0-V12", {
 	peakminrpm = 500,
 	peakmaxrpm = 1500,
 	limitrpm = 2500
+} )
+
+ACF_DefineEngine( "38.8-V12", {
+	name = "38.8L V12 Diesel",
+	desc = "B-92 Russian tank engine",
+	model = "models/engines/v12m.mdl",
+	sound = "acf_engines/v12_diesellarge.wav",
+	category = "V12",
+	fuel = "Diesel",
+	enginetype = "GenericDiesel",
+	weight = 1020,
+	torque = 3750,
+	flywheelmass = 10,
+	idlerpm = 300,
+	peakminrpm = 300,
+	peakmaxrpm = 2000,
+	limitrpm = 2200
 } )
