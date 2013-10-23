@@ -133,7 +133,7 @@ ACF_DefineEngine( "Turbine-Large", {
 	enginetype = "Turbine",
 	weight = 1134,
 	torque = 3754,
-	flywheelmass = 4,
+	flywheelmass = 6,
 	idlerpm = 500,
 	peakminrpm = 1,
 	peakmaxrpm = 1,
