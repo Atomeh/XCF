@@ -123,3 +123,22 @@ ACF_DefineEngine( "Turbine-Large", {
 	elecpower = 560,
 	flywheeloverride = 6000
 } )
+ACF_DefineEngine( "Turbine-Large", {
+	name = "AGT1500",
+	desc = "Large",
+	model = "models/engines/gasturbine_l.mdl",
+	sound = "acf_engines/turbine_large.wav",
+	category = "Turbine",
+	fuel = "Any",
+	enginetype = "Turbine",
+	weight = 1134,
+	torque = 3754,
+	flywheelmass = 4,
+	idlerpm = 500,
+	peakminrpm = 1,
+	peakmaxrpm = 1,
+	limitrpm = 3400,
+	iselec = true,
+	elecpower = 560,
+	flywheeloverride = 6000
+} )
